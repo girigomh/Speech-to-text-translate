@@ -1,0 +1,41 @@
+.translate_container {
+  border: solid 4px;
+  border-color: aliceblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 60vh;
+  transition: 0.3s;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
+.counter_container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.script_area {
+  height: 50%;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+.RecordButton {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}

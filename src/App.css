@@ -1,0 +1,32 @@
+
+* {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.Speech {
+  width: 50px;
+}
+
+.group {
+  margin: 7px 0;
+}
+
+textarea {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid rgb(228, 20, 20);
+  outline: none;
+  border-radius: 3px;
+}
+
+
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
